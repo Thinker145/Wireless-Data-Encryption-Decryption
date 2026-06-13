@@ -8,13 +8,12 @@ This project presents the design and implementation of a secure long-range wirel
 
 The architecture consists of three nodes:
 
-* **Alice** – Secure transmitting node
-* **Bob** – Secure receiving node
-* **Darth** – Monitoring and attack-simulation node
+* Alice – Secure transmitting node
+* Bob – Secure receiving node
+* Darth – Monitoring and attack-simulation node
 
 The project demonstrates how encrypted wireless communication can protect sensitive information and how security is affected when secret key material becomes exposed.
 
----
 
 ## Key Features
 
@@ -28,7 +27,6 @@ The project demonstrates how encrypted wireless communication can protect sensit
 * Attacker Simulation and Security Demonstration
 * STM32 Embedded Firmware Development
 
----
 
 ## System Architecture
 
@@ -42,8 +40,6 @@ The communication process follows the workflow below:
 6. Monitoring node observes encrypted traffic.
 7. Post-compromise simulation demonstrates plaintext recovery.
 
----
-
 ## Hardware Components
 
 | Component                  | Purpose                   |
@@ -53,8 +49,6 @@ The communication process follows the workflow below:
 | HC-05 Bluetooth Module     | User Message Input        |
 | SSD1306 OLED Display       | Local Display Output      |
 | CP2102 USB-UART            | Programming and Debugging |
-
----
 
 ## Technologies Used
 
@@ -66,11 +60,10 @@ The communication process follows the workflow below:
 * Bluetooth Communication
 * OLED Interface Programming
 
----
+
 
 ## Project Structure
 
-```text
 Firmware/
 ├── alice_device.ino
 ├── bob_device.ino
@@ -78,9 +71,7 @@ Firmware/
 
 Project_Report/
 └── Wireless Data Encryption Decryption.pdf
-```
 
----
 
 ## Experimental Results
 
@@ -92,7 +83,6 @@ The system successfully demonstrated:
 * Successful receiver-side plaintext recovery
 * Visualization of attacker capabilities before and after key compromise
 
----
 
 ## Applications
 
@@ -103,7 +93,6 @@ The system successfully demonstrated:
 * Educational Cryptography Platforms
 * Long-Range Secure Messaging Systems
 
----
 
 ## Project Team
 
@@ -115,7 +104,6 @@ The system successfully demonstrated:
 Department of Electronics and Communication Engineering
 Central Institute of Technology Kokrajhar
 
----
 
 ## Author Portfolio
 
